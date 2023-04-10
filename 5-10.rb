@@ -56,3 +56,18 @@
 
 
 #---------------------------9 Math and numbers-----------------------
+# num = 20
+# puts ("My fav num "+num.to_s())
+# puts -5.48485454.abs().round()
+# puts 20.1.ceil()
+# puts 20.99.floor()
+# puts Math.sqrt(36)
+# puts Math.log(1)
+# puts 11%9
+# puts 2^3
+# puts 10/7
+# puts 10/7.0
+#-------------------------10 User input---------------------------
+puts "Enter your name:"
+name = gets.chomp() #remove the newline character ("\n") 
+puts "Hi!..."+ name +"you are cool!"
